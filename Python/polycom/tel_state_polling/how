@@ -1,0 +1,20 @@
+https://stackoverflow.com/questions/29810572/save-xml-response-from-get-call-using-python
+https://docs.python.org/2/library/xml.etree.elementtree.html
+https://docs.python.org/2/library/xml.etree.elementtree.html#xpath-support
+
+
+tree = ElementTree.parse(FILE_xml)
+tree = ElementTree.fromstring(response.raw)
+
+
+notes:
+Transferring:
+- transferring call from phone and then transferring back changes call id
+- transferring call from the other phone keeps call id
+
+Conferencing:
+- Will have one line with two calls
+
+Two calls
+- Will have one line with two calls
+
